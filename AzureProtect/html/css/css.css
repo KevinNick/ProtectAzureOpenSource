@@ -1,0 +1,379 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    font-family: 'Alegreya Sans',微軟正黑體, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 55px;
+    background-color: #343434;
+    margin-bottom: 15px;
+}
+.login_area {
+    float: right;
+    height: 55px;
+    width: 800px;
+    margin-right: 20px;
+}
+.profile img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    float: right;
+    margin: 5px 15px 0 0;
+}
+.name {
+    float: right;
+    color: white;
+    font-weight: 300;
+    line-height: 55px;
+    font-size: 14px;
+}
+.btn_log a {
+    width: auto;
+    height: 30px;
+    background-color: #1b92cb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 15px;
+    line-height: 30px;
+    margin-top: 13px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+.btn_log a:hover {
+    background-color: #31b3f1;
+}
+.login_area input {
+    width: 150px;
+    height: 22px;
+    color: #333;
+    line-height: 22px;
+    float: right;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 14px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-indent: 10px;
+}
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+.left {
+    width: 650px;
+    height: 530px;
+    float: left;
+}
+.route {
+    width: 650px;
+    height: 70px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #434343;
+    margin-bottom: 15px;
+}
+.route input {
+    width: 200px;
+    height: 22px;
+    color: #333;
+    line-height: 22px;
+    float: left;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-indent: 10px;
+}
+.route h2 {
+    float: left;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 70px;
+}
+.btn_route a {
+    background-color: #797979;
+    float: left;
+    margin-top: 19px;
+}
+.btn_route a:hover {
+    background-color: #949494;
+}
+.map {
+    width: 650px;
+    height: 440px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #434343;
+}
+.right {
+    width: 335px;
+    height: 527px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #434343;
+    float: right;
+}
+.submenu {
+    width: 335px;
+    height: 70px;
+    margin-bottom: 15px;
+    font-size: 0;
+}
+.submenu ul li{
+    position: relative;
+    display: inline-block;
+}
+.submenu ul li a {
+    width: 94px;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #797979;
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 8px;
+    margin-top: 18px;
+    font-family: 微軟正黑體, Microsoft JhengHei;
+}
+.submenu ul li a:hover {
+    background-color: #1b92cb;
+}
+
+.submenu ul li ul{
+    position: absolute;
+    display: none;
+    z-index: 10;
+}
+.submenu ul li:hover ul{
+    display: block;
+}
+.submenu ul li ul li a{
+    margin: 5px 0 0 0;
+    background-color: #333;
+}
+
+.cloud {
+    width: 298px;
+    margin: 0 auto;
+}
+.cloud li a {
+    width: 100%;
+    background: url(../images/pluscircle.png) no-repeat;
+    text-indent: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    height: 32px;
+    line-height: 28px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.cloud li a:hover {
+    color: #999;
+}
+.cloud li li a {
+    height: 29px;
+    background: url(../images/normalcircle.png) no-repeat;
+    line-height: 29px;
+    color: #bfbfbf;
+}
+.cloud li li a:hover {
+    background: url(../images/checkcircle.png) no-repeat;
+}
+
+
+
+
+.member {
+    width: 298px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.member ul li a {
+    width: 100%;
+    background: url(../images/pluscircle.png) no-repeat;
+    text-indent: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    height: 32px;
+    line-height: 28px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.member ul li a:hover {
+    color: #999;
+}
+.member ul li ul{
+    background: url(../images/repeat_line.png) left repeat-y;
+    padding: 10px 0 10px 15px;
+}
+.member ul li ul li{
+    display: inline-block;
+    background: url(../images/repeat.png) repeat-x;
+    text-align: center;
+    padding: 0 0 10px 8px;
+
+}
+.member ul li ul li a{
+    width: auto;
+    background:none;
+    text-indent: 0;
+    font-size: 0;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline-block;
+    height: auto;
+    position: relative;
+}
+.member ul li ul li a img{
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.member ul li ul li a span.check {
+    width: 21px;
+    height: 21px;
+    background: url(../images/check.png) no-repeat;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: none;
+}
+.member ul li ul li:hover a span.check{
+    display: block;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+table{
+    width: 95%;
+    margin: auto;
+}
+td{
+    padding: 8px;
+    margin: 2px;
+    border-right: 1px solid #000;
+}
+tr.title{
+    font-size: 12px;
+    color: #999;
+}
+tr.blue{ background: #1d465a;}
+tr.gray{ background: #333;}
+
+.form_style{
+    font-size: 16px;
+    color: #333;
+    padding: 2px;
+}
+
+/*天氣*/
+.weather{
+    font-size: 14px;
+    color: #FFF;
+    padding: 0px 10px 10px 10px;
+}
+
+/*告警*/
+.alert{
+    font-size: 14px;
+    color: #FFF;
+    padding: 0px 10px 10px 10px;
+}
+.search_form{
+    padding: 0 0 10px 0;
+}
+.search_form select{
+    margin: 0 0 0 8px;
+}
+a.search_btn{
+    background: #1b92cb;
+    color: #FFF;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.time{
+    color: #1b92cb;
+}
+
+/*聊天*/
+.chat{
+    font-size: 14px;
+    color: #FFF;
+    padding: 0px 10px 10px 10px;
+}
+.chat_area{
+    border:1px solid #666; 
+    height: 300px;
+    width: 312px;
+}
+.chat_form{
+    padding: 10px 0;
+    vertical-align: middle;
+}
+.chat_form select{
+    margin: 0;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.chat_form textarea{
+    float: right;
+    height: 30px;
+}
+.chat a{
+    margin: 10px 0 0 0;
+    float: right;
+}
+
+
